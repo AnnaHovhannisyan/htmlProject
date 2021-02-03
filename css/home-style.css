@@ -30,7 +30,7 @@ body{
     color:#fff;
     width:500px;
     display:block;
-    margin:10px 10px 0px;
+    margin:10px 10px 0;
     position:absolute;
     top:20px;
     left:30px;
@@ -53,7 +53,7 @@ nav ul{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
-    /*position:relative;*/
+
 
 }
 nav ul li{
@@ -94,9 +94,8 @@ nav ul li a{
 .title > p{
     font-size:24px;
     color:#fff;
-    /*font-weight:normal;*/
     line-height:37px;
-    font-style:arial;
+    font-family: Arial, Helvetica, sans-serif;
     text-align:center;
     font-variant:all-petite-caps;
 }
@@ -117,7 +116,6 @@ nav ul li a{
     position:relative;
 }
 .cell-1{
-    /*background:transparent;*/
     overflow:hidden;
     position:absolute;
     top:10%;
@@ -147,7 +145,6 @@ nav ul li a{
     display:flex;
     justify-content:space-around;
     flex-direction:column;
-    /*column-gap:50px;*/
 }
 .cell-2 p{
     text-align:left;
@@ -161,7 +158,6 @@ nav ul li a{
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
-    /*justify-content:space-around;*/
     box-sizing:border-box;
     position:relative;
 
@@ -170,7 +166,6 @@ nav ul li a{
     position:absolute;
     top:30px;
     left:350px;
-    /*font-variant:all-caps;*/
 }
 .pictures h3{
     position:absolute;
